@@ -18,11 +18,11 @@ A logger for just about everything.
 2. Enter your logger config and use
 
    ```JS
-    import {createLogger} from '@fdao/logger'
+    import {createLogger} from '@fdrpham/logger'
 
     const logger = createLogger({
         defaultMeta: {
-            service_name: 'fdao-logger'
+            service_name: 'fdr-logger'
         },
         tracing: {
             tracerSessionName: 'test',
