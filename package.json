@@ -1,5 +1,5 @@
 {
-  "name": "@frederickpham/logger",
+  "name": "@fdao/logger",
   "version": "1.0.0",
   "description": "A logger for just about everything.",
   "main": "lib/index.js",
@@ -8,16 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prepare": "yarn run build",
-    "preversion" : "yarn run lint",
+    "preversion": "yarn run lint",
     "prepublishOnly": "yarn run lint",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "version" : "yarn run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "version": "yarn run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FrederickPham/logger.git"
+    "url": "git+https://github.com/FDAO-VN/logger.git"
   },
   "keywords": [
     "logger"
@@ -25,9 +25,9 @@
   "author": "hienpham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FrederickPham/logger/issues"
+    "url": "https://github.com/FDAO-VN/logger/issues"
   },
-  "homepage": "https://github.com/FrederickPham/logger#readme",
+  "homepage": "https://github.com/FDAO-VN/logger#readme",
   "dependencies": {
     "cls-hooked": "^4.2.2",
     "lodash": "^4.17.21",
@@ -44,5 +44,10 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.2.4"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
