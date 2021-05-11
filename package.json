@@ -1,5 +1,5 @@
 {
-  "name": "@fdao/logger",
+  "name": "logger",
   "version": "1.0.0",
   "description": "A logger for just about everything.",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FDAO-VN/logger.git"
+    "url": "git+https://github.com/FrederickPham/logger.git"
   },
   "keywords": [
     "logger"
@@ -25,9 +25,9 @@
   "author": "hienpham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FDAO-VN/logger/issues"
+    "url": "https://github.com/FrederickPham/logger/issues"
   },
-  "homepage": "https://github.com/FDAO-VN/logger#readme",
+  "homepage": "https://github.com/FrederickPham/logger#readme",
   "dependencies": {
     "cls-hooked": "^4.2.2",
     "lodash": "^4.17.21",
