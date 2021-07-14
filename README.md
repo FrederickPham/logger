@@ -7,12 +7,12 @@ A logger for just about everything.
 
 1. Install NPM packages
    ```sh
-   yarn add @fdao/logger
+   yarn add @fdrpham/logger
    ```
    or
 
     ```sh
-   npm install @fdao/logger --save
+   npm install @fdrpham/logger
    ```
 
 2. Enter your logger config and use
